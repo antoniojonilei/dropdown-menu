@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: black;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 20px 30px;
+}
+
+nav li a:hover{
+    background-color: rgb(109, 109, 109);
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.dropdown-menu {
+    position: absolute;
+    border: 1px solid gray;
+    display: none;
+}
+
+.dropdown-menu a{
+    display: block;
+    color: black;
+    
+
+}
